@@ -1,25 +1,25 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+# Built application files and Maven
+target/
+.mvn/
+mvnw
+mvnw.cmd
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Compiled class files
+*.class
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Log Files
+*.log
+
+# About IntelliJ
 *.iml
-*.ipr
+/.idea/
+/out/
 
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
