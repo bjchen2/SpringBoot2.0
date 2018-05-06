@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.server.*;
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
 import java.util.Collection;
 

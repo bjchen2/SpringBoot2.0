@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot2</artifactId>
+        <groupId>com</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>web</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com</groupId>
+            <artifactId>persistence</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--添加mainClass 不然maven打包生成jar包时无法找到mainClass路径-->
+                <configuration>
+                    <mainClass>com.springboot2.Springboot2Application</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
